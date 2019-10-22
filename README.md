@@ -4,5 +4,5 @@
 Side note: Accidently made on own account, was imported.
 
 Live Link: 
-https://itmd-361-jdumitru.github.io/Project1/
+https://itmd-362-jdumitru.github.io/Project1/
 
