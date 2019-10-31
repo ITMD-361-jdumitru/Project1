@@ -45,7 +45,6 @@
   }
   #submit_button{
     background-color: #D1D7DB;
-    border: none;
     color: gray;
     padding: 15px 32px;
     text-align: center;
@@ -202,7 +201,7 @@
   #submit_button{
     background-color: #D1D7DB;
     border: none;
-    color: gray;
+    color: gray; /*clickable under-tone color*/
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -211,7 +210,7 @@
     margin: 8px 4px;
     cursor: pointer;
     outline: none;
-    color: #fff;
+    color: #fff; /*font color*/
     background-color: #4CAF50;
     border-radius: 15px;
     box-shadow: 0 9px #999;

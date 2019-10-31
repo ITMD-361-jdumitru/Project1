@@ -1,13 +1,13 @@
 function init(){
-    var onClick = document.getElementById("submit_button"); /*the submit button*/
+    var button = document.getElementById("submit_button"); /*the submit button*/
 
-    var alertInfo = document.getElementById("phone_number"); /**/
+    var name = document.getElementById("name"); /**/
 
     var email = document.getElementById("email");/**/
 
     /*var name = document.getElementById("name");*/ /*<---- Should I make one for name?*/
     /*Halloween message */
-    onClick.addEventListener("click", function() {
+    button.addEventListener("click", function() {
         alert ("Farewell, they are coming quicker than you think... ");
     });
 }
