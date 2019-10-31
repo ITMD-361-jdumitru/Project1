@@ -8,7 +8,7 @@ function init(){
     /*var name = document.getElementById("name");*/ /*<---- Should I make one for name?*/
 
     onClick.addEventListener("click", function() {
-        alert (" " + alertInfo.value); /**/
+        alert ("Farewell, they are coming quicker than you think... " + alertInfo.value); /**/
     });
 }
 window.addEventListener('load', init);
