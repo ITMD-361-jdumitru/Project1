@@ -14,14 +14,14 @@
     font-size: 25px; /* 2.5em*/
     padding-top: 5%;
     padding-bottom: 2%;
-    font-family: 'Della Respira', serif;
+    font-family: 'Della Respira',monospace, serif;
   }
 
   body{
     text-align: center;
     color: #B2BEC3;
     background-color: #2D3436;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web',fantasy, sans-serif;
   }
 
   input{
