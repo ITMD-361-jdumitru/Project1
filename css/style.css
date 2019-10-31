@@ -42,7 +42,7 @@
   #code {
     padding-bottom: 15%;
   }
-  #button{
+  #submit_button{
     background-color: #D1D7DB;
     border: none;
     color: gray;
@@ -73,167 +73,18 @@
     padding-bottom: 5%;
     font-size: 18px;
   }
-}
 
 /*-------------------------------------------------------------------*/
-
-
-
-/*-------------------------------------------------------------------*/
-
-
-/*Desktop view*/
-@media only screen and (min-width: 768px) {
-  h2 {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 5%;
-    padding-bottom: 2%;
-  }
-  body {
-    text-align: center;
-    color: #B2BEC3;
-    background-color: #2D3436;
-    font-family: Illuminatti;
-  }
-  input {
-    width: 350px;
-    padding: 10px 10px;
-    margin: 15px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: Illuminatti;
-  }
-/*For the spacing in between the form*/
-  #date {
-    padding-bottom: 15%;
-  }
-  #email {
-    padding-bottom: 15%;
-  }
-  #phone {
-    padding-bottom: 15%;
-  }
-  #code {
-    padding-bottom: 15%;
-  }
-  #button{
-    background-color: #D1D7DB;
-    border: none;
-    color: gray;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 8px 4px;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #4CAF50;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-  }
-
-
-    .button:hover {background-color: #3e8e41}
-
-    .button:active {
-      background-color: #3e8e41;
-      box-shadow: 0 5px #666;
-      transform: translateY(4px);
-  }
-
-/* for the last paragraph*/
-  .mes  {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-size: 18px;
-  }
-}
-
-
-/* ---------------------------------------------------------*/
 
 
 
 /*For Tablet Viewing*/
 
 @media only screen and (max-width: 768px){
-  h2{
-    text-align: center;
-    font-size: 25px;
-    padding-top: 5%;
-    padding-bottom: 2%;
-  }
-
-  body{
-    text-align: center;
-    color: #B2BEC3;
-    background-color: #2D3436;
-    font-family: Illuminatti;
-  }
-
-  input{
-    width: 87%;
-    padding: 10px 20px;
-    margin: 15px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-sizing: border-box;
-    text-align: center;
-    font-family: Illuminatti;
-
-  }
-/*For the spacing in between the form*/
-  #date {
-    padding-bottom: 15%;
-  }
-  #email {
-    padding-bottom: 15%;
-  }
-  #phone {
-    padding-bottom: 15%;
-  }
-  #code {
-    padding-bottom: 15%;
-  }
-  #button{
-    background-color: #D1D7DB;
-    border: none;
-    color: gray;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 8px 4px;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #4CAF50;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-  }
+}
+/*-------------------------------------------------------------------*/
 
 
-    .button:hover {background-color: #3e8e41}
-
-    .button:active {
-      background-color: #3e8e41;
-      box-shadow: 0 5px #666;
-      transform: translateY(4px);
-  }
-
-
-
-/* for the last paragraph*/
-  .mes  {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    font-size: 18px;
-  }
+/*Desktop view*/
+@media only screen and (min-width: 768px) {
 }
