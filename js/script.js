@@ -6,9 +6,9 @@ function init(){
     var email = document.getElementById("email");/**/
 
     /*var name = document.getElementById("name");*/ /*<---- Should I make one for name?*/
-
+    /*Halloween message */
     onClick.addEventListener("click", function() {
-        alert ("Farewell, they are coming quicker than you think... " + alertInfo.value); /**/
+        alert ("Farewell, they are coming quicker than you think... ");
     });
 }
 window.addEventListener('load', init);
