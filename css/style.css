@@ -1,12 +1,17 @@
                       /* James Dumitru ITMD 362 */
 /*-------------------------------------------------------------------*/
 
+/*  Golden Section Modular Scale:
+  https://www.modularscale.com/?25&px&1.618
+
+*/
+
 /*-------------------------------------------------------------------*/
                             /* For Mobile*/
 /*-------------------------------------------------------------------*/
   h2{
     text-align: center;
-    font-size: 25px;
+    font-size: 25px; /* 2.5em*/
     padding-top: 5%;
     padding-bottom: 2%;
     font-family: 'Della Respira', serif;
@@ -21,11 +26,11 @@
 
   input{
     width: 50%;
-    padding: 10px 20px;
-    margin: 15px 0;
+    padding: 10px 20px; /*0.625em & 1.25em*/
+    margin: 15px 0; /*0.938em*/
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 8px; /*0.5em*/
     box-sizing: border-box;
     text-align: center;
     font-family: 'Zilla Slab', regular, serif;
@@ -47,32 +52,32 @@
   #submit_button{
     background-color: #D1D7DB;
     color: gray;
-    padding: 15px 32px;
+    padding: 15px 32px; /*0.938em & 3.2em*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
-    margin: 8px 4px;
+    font-size: 20px; /*1.25em*/
+    margin: 8px 4px; /*0.5em & 0.4*/
     cursor: pointer;
     outline: none;
     color: #fff;
     background-color: #4CAF50;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+    border-radius: 15px; /* 0.938em*/
+    box-shadow: 0 9px #999; /*0 & 0.563em*/
   }
 
   .button:hover {background-color: #3e8e41}
 
   .button:active {
     background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    box-shadow: 0 5px #666; /*0 & 0.5em*/
+    transform: translateY(4px); /* 0.4em*/
   }
 /* for the last paragraph*/
   .mes  {
     padding-top: 5%;
     padding-bottom: 5%;
-    font-size: 18px;
+    font-size: 18px; /*1.125em*/
   }
 
 
@@ -80,81 +85,9 @@
                           /*For Tablet Viewing*/
 /*-------------------------------------------------------------------*/
 @media only screen and (min-width: 600px) {
-h2{
-  text-align: center;
-  font-size: 25px;
-  padding-top: 5%;
-  padding-bottom: 2%;
-  font-family: 'Della Respira', serif;
-}
-
-body{
-  text-align: center;
-  color: #B2BEC3;
-  background-color: #2D3436;
-  font-family: 'Titillium Web', sans-serif;
-}
-
-input{
-  width: 50%;
-  padding: 10px 20px;
-  margin: 15px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  text-align: center;
-  font-family: 'Zilla Slab', regular, serif;
-
-}
-/*For the spacing in between the form*/
-#date {
-  padding-bottom: 15%;
-}
-#email {
-  padding-bottom: 15%;
-}
-#phone {
-  padding-bottom: 15%;
-}
-#code {
-  padding-bottom: 15%;
-}
-#submit_button{
-  background-color: #D1D7DB;
-  color: gray;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 8px 4px;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-
-.button:hover {background-color: #3e8e41}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-/* for the last paragraph*/
-.mes  {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  font-size: 18px;
-}
-/*----------------------------------------------------------------------------*/
-@media only screen and (max-width: 600px){
   h2{
     text-align: center;
-    font-size: 25px;
+    font-size: 25px; /* 2.5em*/
     padding-top: 5%;
     padding-bottom: 2%;
     font-family: 'Della Respira', serif;
@@ -169,11 +102,83 @@ input{
 
   input{
     width: 50%;
-    padding: 10px 20px;
-    margin: 15px 0;
+    padding: 10px 20px; /*0.625em & 1.25em*/
+    margin: 15px 0; /*0.938em*/
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 8px; /*0.5em*/
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Zilla Slab', regular, serif;
+
+  }
+  /*For the spacing in between the form*/
+  #date {
+    padding-bottom: 15%;
+  }
+  #email {
+    padding-bottom: 15%;
+  }
+  #phone {
+    padding-bottom: 15%;
+  }
+  #code {
+    padding-bottom: 15%;
+  }
+  #submit_button{
+    background-color: #D1D7DB;
+    color: gray;
+    padding: 15px 32px; /*0.938em & 3.2em*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; /*1.25em*/
+    margin: 8px 4px; /*0.5em & 0.4*/
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 15px; /* 0.938em*/
+    box-shadow: 0 9px #999; /*0 & 0.563em*/
+  }
+
+  .button:hover {background-color: #3e8e41}
+
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666; /*0 & 0.5em*/
+    transform: translateY(4px); /* 0.4em*/
+  }
+  /* for the last paragraph*/
+  .mes  {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 18px; /*1.125em*/
+  }
+/*----------------------------------------------------------------------------*/
+@media only screen and (max-width: 600px){
+  h2{
+    text-align: center;
+    font-size: 25px; /* 2.5em*/
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family: 'Della Respira', serif;
+  }
+
+  body{
+    text-align: center;
+    color: #B2BEC3;
+    background-color: #2D3436;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+  input{
+    width: 50%;
+    padding: 10px 20px; /*0.625em & 1.25em*/
+    margin: 15px 0; /*0.938em*/
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px; /*0.5em*/
     box-sizing: border-box;
     text-align: center;
     font-family: 'Zilla Slab', regular, serif;
@@ -195,32 +200,32 @@ input{
   #submit_button{
     background-color: #D1D7DB;
     color: gray;
-    padding: 15px 32px;
+    padding: 15px 32px; /*0.938em & 3.2em*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
-    margin: 8px 4px;
+    font-size: 20px; /*1.25em*/
+    margin: 8px 4px; /*0.5em & 0.4*/
     cursor: pointer;
     outline: none;
     color: #fff;
     background-color: #4CAF50;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+    border-radius: 15px; /* 0.938em*/
+    box-shadow: 0 9px #999; /*0 & 0.563em*/
   }
 
   .button:hover {background-color: #3e8e41}
 
   .button:active {
     background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    box-shadow: 0 5px #666; /*0 & 0.5em*/
+    transform: translateY(4px); /* 0.4em*/
   }
 /* for the last paragraph*/
   .mes  {
     padding-top: 5%;
     padding-bottom: 5%;
-    font-size: 18px;
+    font-size: 18px; /*1.125em*/
   }
 
 
@@ -232,7 +237,7 @@ input{
 
   h2{
     text-align: center;
-    font-size: 25px;
+    font-size: 25px; /* 2.5em*/
     padding-top: 5%;
     padding-bottom: 2%;
     font-family: 'Della Respira', serif;
@@ -247,11 +252,11 @@ input{
 
   input{
     width: 50%;
-    padding: 10px 20px;
-    margin: 15px 0;
+    padding: 10px 20px; /*0.625em & 1.25em*/
+    margin: 15px 0; /*0.938em*/
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 8px; /*0.5em*/
     box-sizing: border-box;
     text-align: center;
     font-family: 'Zilla Slab', regular, serif;
@@ -273,39 +278,39 @@ input{
   #submit_button{
     background-color: #D1D7DB;
     color: gray;
-    padding: 15px 32px;
+    padding: 15px 32px; /*0.938em & 3.2em*/
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
-    margin: 8px 4px;
+    font-size: 20px; /*1.25em*/
+    margin: 8px 4px; /*0.5em & 0.4*/
     cursor: pointer;
     outline: none;
     color: #fff;
     background-color: #4CAF50;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+    border-radius: 15px; /* 0.938em*/
+    box-shadow: 0 9px #999; /*0 & 0.563em*/
   }
 
   .button:hover {background-color: #3e8e41}
 
   .button:active {
     background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    box-shadow: 0 5px #666; /*0 & 0.5em*/
+    transform: translateY(4px); /* 0.4em*/
   }
 /* for the last paragraph*/
   .mes  {
     padding-top: 5%;
     padding-bottom: 5%;
-    font-size: 18px;
+    font-size: 18px; /*1.125em*/
   }
 /*----------------------------------------------------------------------------*/
 
   @media only screen and (max-width: 600px){
     h2{
       text-align: center;
-      font-size: 25px;
+      font-size: 25px; /* 2.5em*/
       padding-top: 5%;
       padding-bottom: 2%;
       font-family: 'Della Respira', serif;
@@ -320,11 +325,11 @@ input{
 
     input{
       width: 50%;
-      padding: 10px 20px;
-      margin: 15px 0;
+      padding: 10px 20px; /*0.625em & 1.25em*/
+      margin: 15px 0; /*0.938em*/
       display: inline-block;
       border: 1px solid #ccc;
-      border-radius: 8px;
+      border-radius: 8px; /*0.5em*/
       box-sizing: border-box;
       text-align: center;
       font-family: 'Zilla Slab', regular, serif;
@@ -346,32 +351,32 @@ input{
     #submit_button{
       background-color: #D1D7DB;
       color: gray;
-      padding: 15px 32px;
+      padding: 15px 32px; /*0.938em & 3.2em*/
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 20px;
-      margin: 8px 4px;
+      font-size: 20px; /*1.25em*/
+      margin: 8px 4px; /*0.5em & 0.4*/
       cursor: pointer;
       outline: none;
       color: #fff;
       background-color: #4CAF50;
-      border-radius: 15px;
-      box-shadow: 0 9px #999;
+      border-radius: 15px; /* 0.938em*/
+      box-shadow: 0 9px #999; /*0 & 0.563em*/
     }
 
     .button:hover {background-color: #3e8e41}
 
     .button:active {
       background-color: #3e8e41;
-      box-shadow: 0 5px #666;
-      transform: translateY(4px);
+      box-shadow: 0 5px #666; /*0 & 0.5em*/
+      transform: translateY(4px); /* 0.4em*/
     }
   /* for the last paragraph*/
     .mes  {
       padding-top: 5%;
       padding-bottom: 5%;
-      font-size: 18px;
+      font-size: 18px; /*1.125em*/
     }
 
 /*-------------------------------------------------------------------*/
