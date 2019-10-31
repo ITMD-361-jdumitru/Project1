@@ -9,17 +9,18 @@
     font-size: 25px;
     padding-top: 5%;
     padding-bottom: 2%;
+    font-family: 'Della Respira', serif;
   }
 
   body{
     text-align: center;
     color: #B2BEC3;
     background-color: #2D3436;
-    font-family: Illuminatti;
+    font-family: 'Titillium Web', sans-serif;
   }
 
   input{
-    width: 87%;
+    width: 50%;
     padding: 10px 20px;
     margin: 15px 0;
     display: inline-block;
@@ -27,7 +28,7 @@
     border-radius: 8px;
     box-sizing: border-box;
     text-align: center;
-    font-family: Illuminatti;
+    font-family: 'Zilla Slab', regular, serif;
 
   }
 /*For the spacing in between the form*/
@@ -60,9 +61,9 @@
     box-shadow: 0 9px #999;
   }
 
-  .submit_button:hover {background-color: #3e8e41}
+  .button:hover {background-color: #3e8e41}
 
-  .submit_button:active {
+  .button:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -79,23 +80,24 @@
                           /*For Tablet Viewing*/
 /*-------------------------------------------------------------------*/
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
   h2{
     text-align: center;
     font-size: 25px;
     padding-top: 5%;
     padding-bottom: 2%;
+    font-family: 'Della Respira', serif;
   }
 
   body{
     text-align: center;
     color: #B2BEC3;
     background-color: #2D3436;
-    font-family: Illuminatti;
+    font-family: 'Titillium Web', sans-serif;
   }
 
   input{
-    width: 87%;
+    width: 50%;
     padding: 10px 20px;
     margin: 15px 0;
     display: inline-block;
@@ -103,7 +105,7 @@
     border-radius: 8px;
     box-sizing: border-box;
     text-align: center;
-    font-family: Illuminatti;
+    font-family: 'Zilla Slab', regular, serif;
 
   }
 /*For the spacing in between the form*/
@@ -121,7 +123,6 @@
   }
   #submit_button{
     background-color: #D1D7DB;
-    border: none;
     color: gray;
     padding: 15px 32px;
     text-align: center;
@@ -137,9 +138,9 @@
     box-shadow: 0 9px #999;
   }
 
-  .submit_button:hover {background-color: #3e8e41}
+  .button:hover {background-color: #3e8e41}
 
-  .submit_button:active {
+  .button:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -150,31 +151,31 @@
     padding-bottom: 5%;
     font-size: 18px;
   }
-}
 
 
 /*-------------------------------------------------------------------*/
                               /*Desktop view*/
 /*-------------------------------------------------------------------*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
 
   h2{
     text-align: center;
     font-size: 25px;
     padding-top: 5%;
     padding-bottom: 2%;
+    font-family: 'Della Respira', serif;
   }
 
   body{
     text-align: center;
     color: #B2BEC3;
     background-color: #2D3436;
-    font-family: Illuminatti;
+    font-family: 'Titillium Web', sans-serif;
   }
 
   input{
-    width: 87%;
+    width: 50%;
     padding: 10px 20px;
     margin: 15px 0;
     display: inline-block;
@@ -182,10 +183,10 @@
     border-radius: 8px;
     box-sizing: border-box;
     text-align: center;
-    font-family: Illuminatti;
+    font-family: 'Zilla Slab', regular, serif;
 
   }
-  /*For the spacing in between the form*/
+/*For the spacing in between the form*/
   #date {
     padding-bottom: 15%;
   }
@@ -200,8 +201,7 @@
   }
   #submit_button{
     background-color: #D1D7DB;
-    border: none;
-    color: gray; /*clickable under-tone color*/
+    color: gray;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -210,25 +210,24 @@
     margin: 8px 4px;
     cursor: pointer;
     outline: none;
-    color: #fff; /*font color*/
+    color: #fff;
     background-color: #4CAF50;
     border-radius: 15px;
     box-shadow: 0 9px #999;
   }
 
-  .submit_button:hover {background-color: #3e8e41}
+  .button:hover {background-color: #3e8e41}
 
-  .submit_button:active {
+  .button:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
-  /* for the last paragraph*/
+/* for the last paragraph*/
   .mes  {
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 18px;
   }
-}
 /*-------------------------------------------------------------------*/
 /*-------------------------------------------------------------------*/
